@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+    int s=0;
+    int n;
+    scanf("%d",&n);
+    int a[n];
+    for(int i=0;i<5;i++){
+        scanf("%d",&a[i]);
+    }
+    for(int j=0;j<5;j++){
+        s=s+a[j];
+    }
+    int b=s/n;
+    printf("%d",b);
+}
